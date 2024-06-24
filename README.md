@@ -16,9 +16,25 @@
   <ol>
     <li>Clone the repository: <code>git clone https://github.com/goro-dim/net_info.git</code></li>
     <li>Navigate to the project directory: <code>cd net_info</code></li>
-    <li>Set your AbuseIPDB API key in the <code>ThreatInspector.py</code> file.</li>
+    <li>Set your AbuseIPDB API key in the <code>ThreatInspector.py</code> file: <pre><code>headers = {
+'Key': 'YOUR_ACTUAL_API_KEY',  # Replace with your actual API key
+'Accept': 'application/json'
+}</code></pre></li>
     <li>Run the program with an IP address: <code>python3 GoblinThreatSniffer.py 8.8.8.8</code></li>
   </ol>
+
+<h2 style="color:darkgreen;">Obtaining Your AbuseIPDB API Key</h2>
+<p>To get your AbuseIPDB API key, follow these steps:</p>
+<ol>
+  <li>Create an account on <a href="https://www.abuseipdb.com" target="_blank">AbuseIPDB</a> if you haven't already.</li>
+  <li>Log in to your account.</li>
+  <li>Navigate to the API Key section in your account settings or dashboard.</li>
+  <li>Generate a new API key if you don't have one, or copy your existing key.</li>
+</ol>
+<p>With your API key in hand, you’re ready to unlock the full potential of <strong>GoblinThreatSniffer</strong>!</p>
+
+
+
 
   <h3>Usage</h3>
   <p>Here's how you can use the program:</p>
@@ -42,7 +58,4 @@
 
 <p style="text-align:center;">Happy Sniffing! 🐾</p>
 
-  <footer style="text-align:center;">
-    <p>&copy; 2024 GoblinTech Inc. - Crafting magical software solutions with a goblin's touch.</p>
-  </footer>
-
+ 
