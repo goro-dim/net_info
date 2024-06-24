@@ -49,8 +49,8 @@
   <h3>Screenshots</h3>
   <p>Check out these screenshots to see <strong>GoblinThreatSniffer</strong> in action:</p>
   <ul>
-    <li><a href="screenshots/GoblinThreatSniffer_Garuda.png" target="_blank">GoblinThreatSniffer_Garuda</a></li>
-    <li><a href="screenshots/GoblinThreatSniffer_win.png">GoblinThreatSniffer_win</a></li>
+    <li><a href="screenshots/GoblinThreatSniffer_Garuda.png" target="_blank">Sniffing on Linux</a></li>
+    <li><a href="screenshots/GoblinThreatSniffer_win.png">Sniffing on Windows</a></li>
   </ul>
   
 <h3 style="color:darkgreen; text-align:center;">Final Goblin Thoughts</h3>
