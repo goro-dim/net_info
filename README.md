@@ -1,75 +1,48 @@
 
-  <div class="container">
-        <h1>Network Info Application</h1>
-        <p>This application gathers network connection information (active and past connectivity from logs) and checks unique public network information over a threat intelligence platform. The application is OS agnostic, running on Windows, MacOS, and Linux.</p>
+  <h1 style="color:green; text-align:center;">GoblinThreatSniffer</h1>
+  <h2 style="color:brown; text-align:center;">A Goblin's Guide to Network Threat Intelligence</h2>
+  <p>Welcome to <strong>GoblinThreatSniffer</strong>, the tool every goblin needs to sniff out network threats! Whether you're in a dungeon or a data center, this handy Python program will gather network connection information and check it against the AbuseIPDB threat intelligence platform.</p>
 
-  <h2>Features</h2>
-        <ul>
-            <li>Logs active network connections.</li>
-            <li>Queries a threat intelligence platform with gathered IPs and hosts.</li>
-            <li>Works on Windows, MacOS, and Linux.</li>
-        </ul>
+  <h3>Features</h3>
+  <ul>
+    <li><strong>Network Seeker</strong>: Gathers active and past network connections (logs) using a touch of goblin magic.</li>
+    <li><strong>Threat Inspector</strong>: Runs unique public network information against AbuseIPDB to detect threats.</li>
+    <li><strong>Output Decorator</strong>: Presents the information in a human-readable, and slightly goblinish, manner.</li>
+    <li><strong>OS Agnostic</strong>: Works on Windows, MacOS, and Linux - goblins don't discriminate!</li>
+  </ul>
 
-  <h2>Requirements</h2>
-        <ul>
-            <li>Python 3.x</li>
-            <li><code>requests</code> library</li>
-        </ul>
+  <h3>Getting Started</h3>
+  <p>To use <strong>GoblinThreatSniffer</strong>, follow these steps:</p>
+  <ol>
+    <li>Clone the repository: <code>git clone https://github.com/goro-dim/net_info.git</code></li>
+    <li>Navigate to the project directory: <code>cd net_info</code></li>
+    <li>Set your AbuseIPDB API key in the <code>ThreatInspector.py</code> file.</li>
+    <li>Run the program with an IP address: <code>python3 GoblinThreatSniffer.py 8.8.8.8</code></li>
+  </ol>
 
-  <h2>Installation</h2>
-        <ol>
-            <li>Clone the repository:
-                <pre><code>git clone https://github.com/goro-dim/net_info.git
-cd net_info</code></pre>
-            </li>
-            <li>Install the required Python libraries:
-                <pre><code>pip install -r requirements.txt</code></pre>
-            </li>
-        </ol>
+  <h3>Usage</h3>
+  <p>Here's how you can use the program:</p>
+  <pre>
+<code>usage: python3 GoblinThreatSniffer.py [-h] [--help] &lt;IP_or_Domain&gt;</code>
+  </pre>
+  <p>Example:</p>
+  <pre>
+<code>python3 GoblinThreatSniffer.py 8.8.8.8</code>
+  </pre>
 
-  <h2>Usage</h2>
-        <p>To use the Network Info application, follow these steps:</p>
-        <ol>
-            <li>Ensure you have your AbuseIPDB API key ready. You can find it in your AbuseIPDB account settings.</li>
-            <li>Update the <code>threat_intel.py</code> file with your actual API key:
-                <pre><code>headers = {
-    'Key': 'YOUR_ACTUAL_API_KEY',  # Replace with your actual API key
-    'Accept': 'application/json'
-}</code></pre>
-            </li>
-            <li>Run the main script:
-                <pre><code>python main-net_info.py</code></pre>
-            </li>
-        </ol>
+  <h3>Screenshots</h3>
+  <p>Check out these screenshots to see <strong>GoblinThreatSniffer</strong> in action:</p>
+  <ul>
+    <li><a href="screenshots/screenshot1.png">Screenshot 1</a></li>
+    <li><a href="screenshots/screenshot2.png">Screenshot 2</a></li>
+  </ul>
+  
+<h3 style="color:darkgreen; text-align:center;">Final Goblin Thoughts</h3>
+<p>Well, well, well, you've made it to the end of the goblin's guide! With <strong>GoblinThreatSniffer</strong> in your toolkit, you’re now equipped to sniff out network threats like a seasoned goblin tracker. Remember, whether you're navigating the murky depths of a dungeon or the complex web of the internet, vigilance is key. Keep your wits sharp and your network safer with a touch of goblinish ingenuity. May your logs be clear, and your threats be few!</p>
 
-  <h2>Finding Your AbuseIPDB API Key</h2>
-        <p>To find your actual API key for AbuseIPDB, follow these steps:</p>
-        <ol>
-            <li>Create an account on AbuseIPDB if you haven't already by visiting <a href="https://www.abuseipdb.com" target="_blank">AbuseIPDB</a>.</li>
-            <li>Log in to your account.</li>
-            <li>Navigate to the API Key section in your account settings or dashboard.</li>
-            <li>Generate a new API key if you don't have one, or copy your existing key.</li>
-        </ol>
+<p style="text-align:center;">Happy Sniffing! 🐾</p>
 
-  <h2>Code Structure</h2>
-        <p>The project is organized as follows:</p>
-        <pre><code>network_info/
-    __init__.py
-    net_info.py
-    threat_intel.py
-    utils.py
-main-net_info.py
-requirements.txt</code></pre>
-
-<h2>File Descriptions</h2>
-        <ul>
-            <li><code>network_info/__init__.py</code>: Initializes the package.</li>
-            <li><code>network_info/net_info.py</code>: Contains the function to get active network connections.</li>
-            <li><code>network_info/threat_intel.py</code>: Contains the function to check IP threat using the AbuseIPDB API.</li>
-            <li><code>network_info/utils.py</code>: Utility functions, including extracting IPs from connections.</li>
-            <li><code>main-net_info.py</code>: Main script to run the application.</li>
-            <li><code>requirements.txt</code>: Lists the Python libraries required to run the application.</li>
-        </ul>
-
-  </div>
+  <footer style="text-align:center;">
+    <p>&copy; 2024 GoblinTech Inc. - Crafting magical software solutions with a goblin's touch.</p>
+  </footer>
 
